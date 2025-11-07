@@ -23,7 +23,6 @@ class MySplashScreen extends StatelessWidget {
                 ),
               ),
             ),
-
             const SizedBox(height: 15),
             const Text(
               "Welcome",
@@ -33,6 +32,15 @@ class MySplashScreen extends StatelessWidget {
                 color: Colors.black,
               ),
             ),
+            const SizedBox(height: 5),
+            const Text(
+              "Forget to bring your wallet ? \nDon't Worry, shop digitally with us! ",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.indigo,
+              ),
+            )
           ],
         ),
       ),
