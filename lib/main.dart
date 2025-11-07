@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts_aplikasi_mobil/screen/splash_screen_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,13 +12,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
    return MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'UTS Program Mobile',
+    title: 'NIM : 1123150050, Maria',
     theme: ThemeData(
       useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
     ),
-    home: const SplashScreen(),
+    home: const MySplashScreen(),
    );
-    
+
   }
 }
