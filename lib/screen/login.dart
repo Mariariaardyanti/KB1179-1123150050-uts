@@ -13,7 +13,7 @@ class Login extends StatelessWidget {
           child: const Column(
             children: [
               SizedBox(height: 40),
-              Text("Login Screen"),
+              Text("Login"),
             ],
           ),
           ),
