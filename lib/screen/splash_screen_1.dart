@@ -41,7 +41,7 @@ class MySplashScreen extends StatelessWidget {
                 color: Colors.indigo,
               ),
             ),
-            const SizedBox(height: 90),
+            const SizedBox(height: 120),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -72,6 +72,31 @@ class MySplashScreen extends StatelessWidget {
                   ),
                 )
               ],
+            ),
+            const SizedBox(height: 20),
+            Container(
+              margin: const EdgeInsets.only(left: 150, right: 150),
+              child: SizedBox(
+                width: double.infinity,
+                height: 30,
+                child: ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.indigo,
+                    foregroundColor: Colors.white,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadiusGeometry.circular(10,)
+                    )
+                  ),
+                  child: const Text(
+                    "Continue",
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
             )
           ],
         ),
