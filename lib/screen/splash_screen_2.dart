@@ -19,7 +19,7 @@ class MySplashScreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.indigo,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/1.jpg"),
+                  image: AssetImage("assets/images/2.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -35,7 +35,7 @@ class MySplashScreen2 extends StatelessWidget {
             ),
             const SizedBox(height: 5),
             const Text(
-              "Forget to bring your wallet ? \nDon't Worry, shop digitally with us! ",
+              "Don't worry we got you cover. \nUse Wallie instead of cash! ",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 12,
@@ -51,7 +51,7 @@ class MySplashScreen2 extends StatelessWidget {
                   width: 8,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.indigo,
+                    color: Colors.grey,
                   ),
                 ),
                 const SizedBox( width: 8),
@@ -60,7 +60,7 @@ class MySplashScreen2 extends StatelessWidget {
                   width: 8,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.grey,
+                    color: Colors.indigo,
                   ),
                 ),
                 const SizedBox( width: 8),

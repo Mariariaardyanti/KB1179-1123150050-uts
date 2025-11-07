@@ -18,7 +18,7 @@ class MySplashScreen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.indigo,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/1.jpg"),
+                  image: AssetImage("assets/images/3.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -34,7 +34,7 @@ class MySplashScreen3 extends StatelessWidget {
             ),
             const SizedBox(height: 5),
             const Text(
-              "Forget to bring your wallet ? \nDon't Worry, shop digitally with us! ",
+              "Let's try Wallie now ! \nAnd get the best solution. ",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 12,
@@ -50,25 +50,25 @@ class MySplashScreen3 extends StatelessWidget {
                   width: 8,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
+                    color: Colors.grey,
+                  ),
+                ),
+                const SizedBox( width: 8),
+                Container(
+                  height: 8,
+                  width: 8,
+                  decoration: const BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.grey,
+                  ),
+                ),
+                const SizedBox( width: 8),
+                Container(
+                  height: 8,
+                  width: 8,
+                  decoration: const BoxDecoration(
+                    shape: BoxShape.circle,
                     color: Colors.indigo,
-                  ),
-                ),
-                const SizedBox( width: 8),
-                Container(
-                  height: 8,
-                  width: 8,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.grey,
-                  ),
-                ),
-                const SizedBox( width: 8),
-                Container(
-                  height: 8,
-                  width: 8,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.grey,
                   ),
                 )
               ],

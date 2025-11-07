@@ -36,7 +36,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             const SizedBox(height: 5),
             const Text(
-              "Forget to bring your wallet ? \nDon't Worry, shop digitally with us! ",
+              "Forget to bring your wallet \nwhen you are shopping ? ",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 12,
