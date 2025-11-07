@@ -89,7 +89,7 @@ class MySplashScreen3 extends StatelessWidget {
                     )
                   ),
                   child: const Text(
-                    "Continue",
+                    "Get Started",
                     style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
