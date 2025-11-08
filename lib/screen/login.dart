@@ -6,25 +6,37 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Center(
-         child: const Column(
-  children: [
-    SizedBox(height: 40),
-      Icon(Icons.shopping_bag, size: 50, color: Colors.indigo),
-        SizedBox(height: 20),
-          Text(
-      "Welcome Back!",
-      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-    ),
-    SizedBox(height: 8),
-       Text(
-          "Silakan login untuk melanjutkan",
-            style: TextStyle(fontSize: 15, color: Colors.black54),
-              ),
-            ],
+          child: Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: const [
+                SizedBox(height: 20),
+                Icon(Icons.shopping_bag, size: 50, color: Colors.indigo),
+                SizedBox(height: 20),
+                Text(
+                  "Welcome Back!",
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black87,
+                  ),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  "Silakan login untuk melanjutkan",
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.black54,
+                  ),
+                ),
+              ],
+            ),
           ),
-
         ),
       ),
     );
