@@ -20,16 +20,16 @@ class _LoginState extends State<Login> {
             child: Column(
               children: [
                 const SizedBox(height: 40),
-                const Icon(Icons.shopping_bag, size: 80, color: Colors.indigo),
+                const Icon(Icons.shopping_bag, size: 50, color: Colors.indigo),
                 const SizedBox(height: 20),
                 const Text(
                   "Welcome Back!",
-                  style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 8),
                 const Text(
                   "Silakan login untuk melanjutkan",
-                  style: TextStyle(fontSize: 16, color: Colors.black54),
+                  style: TextStyle(fontSize: 12, color: Colors.black54),
                 ),
                 const SizedBox(height: 60),
                 TextField(
@@ -119,8 +119,16 @@ class _LoginState extends State<Login> {
                     ),
                   ),
                 ),
-
-
+                const Row(
+                  children: [
+                    Expanded(child: Divider(thickness: 1)),
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 10),
+                      child: Text("atau"),
+                    ),
+                    Expanded(child: Divider(thickness: 1)),
+                  ],
+                ),
               ],
             ),
           ),
