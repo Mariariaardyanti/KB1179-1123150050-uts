@@ -14,11 +14,11 @@ class Login extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: const [
-                SizedBox(height: 20),
-                Icon(Icons.shopping_bag, size: 50, color: Colors.indigo),
-                SizedBox(height: 20),
-                Text(
+              children: [
+                const SizedBox(height: 20),
+                const Icon(Icons.shopping_bag, size: 50, color: Colors.indigo),
+                const SizedBox(height: 20),
+                const Text(
                   "Welcome Back!",
                   style: TextStyle(
                     fontSize: 18,
@@ -26,21 +26,34 @@ class Login extends StatelessWidget {
                     color: Colors.black87,
                   ),
                 ),
-                SizedBox(height: 5),
-                Text(
+                const SizedBox(height: 5),
+                const Text(
                   "Silakan login untuk melanjutkan",
                   style: TextStyle(
                     fontSize: 12,
                     color: Colors.indigo,
                   ),
                 ),
-                const SizedBox(height: 60),
-                  TextField(
-                    keyboardType: TextInputType.emailAddress,
-                      decoration: InputDecoration(
-                        labelText: 'Email',
-                      ),
-                      ),
+                const SizedBox(height: 60), 
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                    labelText: 'Email',
+                    hintText: 'Masukkan email anda',
+                    prefixIcon: const Icon(Icons.email_outlined),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(12),
+                      borderSide: BorderSide(color: Colors.grey[300]!),
+                    ),
+                    focusedBorder: const OutlineInputBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(12)),
+                      borderSide: BorderSide(color: Colors.indigo, width: 2),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
