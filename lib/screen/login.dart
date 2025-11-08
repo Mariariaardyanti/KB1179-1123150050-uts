@@ -88,6 +88,17 @@ class _LoginState extends State<Login> {
                     ),
                   ),
                 ),
+                Align(
+                alignment: Alignment.centerRight,
+                child: TextButton(
+                  onPressed: () {},
+                  child: const Text(
+                    'Lupa Password?',
+                    style: TextStyle(color: Colors.indigo),
+                  ),
+                ),
+              ),
+
               ],
             ),
           ),
