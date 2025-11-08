@@ -4,13 +4,27 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+UTS APLIKASI MOBILE
+Nama Lengkap : Maria Euphrasia Adryanti
+NIM : 1123150050
+Warna Tema : Indigo (karena NIM berakhiran 0)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot Tampilan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Splash Screen 1
+![Splash Screen 1](assets/ss/splash1.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Splash Screen 2
+![Splash Screen 2](assets/ss/splash2.png)
+
+### Splash Screen 3
+![Splash Screen 3](assets/ss/splash3.png)
+
+### Halaman Login
+![Login Screen](assets/ss/login.png)
+
+## Cara Menjalankan Project
+1. Masuk ke folder project: cd nama_project
+2. Jalankan project: flutter run
+3. pilih untuk run menggunakan chrome
+4. tunggun sampai tampilan keluar
