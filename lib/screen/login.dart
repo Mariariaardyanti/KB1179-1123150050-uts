@@ -98,6 +98,31 @@ class _LoginState extends State<Login> {
                   ),
                 ),
               ),
+              Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 10),
+                  child: SizedBox(
+                    width: 300,
+                    height: 50,
+                    child: ElevatedButton(
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.indigo,
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                      child: const Text(
+                        "Login",
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+
 
               ],
             ),
