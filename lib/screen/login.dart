@@ -32,8 +32,6 @@ class _LoginState extends State<Login> {
                   style: TextStyle(fontSize: 16, color: Colors.black54),
                 ),
                 const SizedBox(height: 60),
-
-                // 📧 Email
                 TextField(
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
@@ -55,8 +53,6 @@ class _LoginState extends State<Login> {
                 ),
 
                 const SizedBox(height: 20),
-
-                // 🔒 Password
                 TextField(
                   obscureText: _obscurePassword,
                   decoration: InputDecoration(
@@ -98,8 +94,9 @@ class _LoginState extends State<Login> {
                   ),
                 ),
               ),
+            const SizedBox(height: 80),
               Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 10),
                   child: SizedBox(
                     width: 300,
                     height: 50,
