@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uts_aplikasi_mobil/screen/splash_screen_2.dart';
 
-
 class MySplashScreen extends StatelessWidget {
   const MySplashScreen({super.key});
 
@@ -36,7 +35,7 @@ class MySplashScreen extends StatelessWidget {
             ),
             const SizedBox(height: 5),
             const Text(
-              "Forget to bring your wallet \nwhen you are shopping ? ",
+              "Forget to bring your wallet \nwhen you are shopping?",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 12,
@@ -55,7 +54,7 @@ class MySplashScreen extends StatelessWidget {
                     color: Colors.indigo,
                   ),
                 ),
-                const SizedBox( width: 8),
+                const SizedBox(width: 8),
                 Container(
                   height: 8,
                   width: 8,
@@ -64,7 +63,7 @@ class MySplashScreen extends StatelessWidget {
                     color: Colors.grey,
                   ),
                 ),
-                const SizedBox( width: 8),
+                const SizedBox(width: 8),
                 Container(
                   height: 8,
                   width: 8,
@@ -72,40 +71,43 @@ class MySplashScreen extends StatelessWidget {
                     shape: BoxShape.circle,
                     color: Colors.grey,
                   ),
-                )
+                ),
               ],
             ),
-            const SizedBox(height: 20),
+
+           const SizedBox(height: 20),
             Container(
               margin: const EdgeInsets.only(left: 150, right: 150),
               child: SizedBox(
                 width: double.infinity,
                 height: 30,
                 child: ElevatedButton(
-                  onPressed: () { Navigator.push(
+                  onPressed: () {
+                    Navigator.push(
                       context,
                       MaterialPageRoute(
                         builder: (context) => const MySplashScreen2(),
-                ),
-                );
-                },
+                      ),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.indigo,
                     foregroundColor: Colors.white,
+                    elevation: 2,
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadiusGeometry.circular(10,)
-                    )
+                      borderRadius: BorderRadius.circular(12),
+                    ),
                   ),
                   child: const Text(
                     "Continue",
                     style: TextStyle(
-                      fontSize: 15,
+                      fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),

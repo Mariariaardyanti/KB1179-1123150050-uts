@@ -129,6 +129,31 @@ class _LoginState extends State<Login> {
                     Expanded(child: Divider(thickness: 1)),
                   ],
                 ),
+              const SizedBox(height: 10),
+                SizedBox(
+                  width: 300,
+                  height: 45,
+                  child: ElevatedButton.icon(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        side: const BorderSide(color: Colors.grey),
+                      ),
+                    ),
+                    icon: Image.asset(
+                      "assets/images/Google.jpg",
+                      height: 24,
+                      width: 24,
+                    ),
+                    label: const Text(
+                      "Login dengan Google",
+                      style: TextStyle(color: Colors.black87),
+                    ),
+                  ),
+                ),
+
               ],
             ),
           ),
